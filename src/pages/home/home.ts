@@ -11,6 +11,7 @@ export class HomePage {
 
 	constructor(public navCtrl: NavController,private inappBrowser: InAppBrowser, platform: Platform) {}
 
+	//method to show the in-app-browser
 	showContent() {
 		const options: InAppBrowserOptions = {
 			zoom: 'no'
